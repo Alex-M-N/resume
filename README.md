@@ -1,6 +1,8 @@
-# it is my resume
+# It is my resume
 
-первый проект, который выложен мною в сеть. 
-Посмотреть можно по сылке:
+##### Первый проект, который выложен мною в сеть. 
+##### Посмотреть можно по сылке:
 
-[Резюме](https://github.com/Alex-M-N/resume/)
+[Резюме](https://alex-m-n.github.io/resume/)
+
+### Thanks to Vladilen Minin.
