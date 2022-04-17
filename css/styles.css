@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14x;
+    font-weight: 500;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.avatar {
+    display: flex;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.info {
+    display: flex;
+}
+
+.about {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width: 555px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .avatar {
+        margin: auto;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.hobby_list {
+    font-weight: normal;
+    margin-left: 30px;
+    list-style: circle;
+    
+}
+
+
+
+.card {
+    background-color: aquamarine;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 25px 15px;
+
+    margin-bottom: 20px;
+}
+ .card h2 {
+     margin-bottom: 5px;
+ }
+
+ a {
+     color: darkblue;
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: goldenrod;
+     text-decoration: underline;
+ }
+
+ .btn {
+     margin-top: 10px;
+     background: #111;
+     padding: 20px 20px;
+     color: aquamarine;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-family: inherit;
+    
+ }
+ 
+
+ .btn:hover {
+     opacity: .7;
+     color: pink;
+ }
+
+ .table {
+     /* border: 0; */
+    width: 100%;
+    text-align: left;
+ }
+
+ .table td {
+     padding-left: 5px;
+ }
+
+ .table th {
+     text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid black;
+ }
+
+  table td:last-child {
+     text-align: center;
+ }
+
+ .table tr:hover {
+     background-color: yellowgreen;
+     border-bottom: 1px;
+ }
+
+.courses {
+    font-weight: normal;
+    margin-left: 30px;
+    list-style: circle;
+}
+
+
+
+.form h2 {
+    text-align: left;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 555px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: black;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}

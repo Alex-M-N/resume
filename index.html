@@ -7,68 +7,103 @@
     <meta name="keywords" content="resume, cv">
     <meta name="description" content="It's Marfin's resume-site">
     <title>Резюме Марфин А.Н.</title>
-    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Александр Марфин</h1>
-    <img src="ливси.gif" alt="аватарка">
-    <p>Я прохожу курс HTML & CSS</p>
-    <p>Опыт работы</p>
-    <table border="1">
-        <thead>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </thead>
-        <tr>
-            <td>ТК Альянс</td>
-            <td>руководитель отдела сервиса</td>
-            <td>2010 - 2021</td>
-        </tr>
-        <tr>
-            <td>Зет</td>
-            <td>руководитель отдела производства</td>
-            <td>2005 - 2010</td>
-        </tr>
-        <tr>
-            <td>СЦМ</td>
-            <td>Директор</td>
-            <td>2002 - 2005</td>
-        </tr>
-    </table>
-    <p>Список социальных сетей</p>
-    <h2>Мои хобби:</h2>
-    <ul>
-        <li>Electronics</li>
-        <li>Diving</li>
-        <li>Aviation</li>
-        <li>Modelling</li>
-        <li>Coding</li>
-    </ul>
-    <p>
-        <a href="https://vk.com/a.marfin" target="_blank"> ВКонтакте </a>
-    <br>
-        <a href="https://www.facebook.com/alexander.marfin.5/" target="_blank"> Facebook </a></p>
-    
-    <div>
-        <h2>Связаться со мной</h2>
-        <form>
-            <div>
-                <label for="name">Имя</label>
-                <input type="text" id="name" placeholder="Введите Ваше имя">
+    <div class="container">
+        <div class="info">        
+            <img src="img/avatar.jpg" alt="Марфин А.Н." class="avatar">
+        
+        
+            <div class="about">
+                <h1>Александр Марфин</h1>
+                <p> О себе: нахожусь в процессе смены сферы деятельности. В настоящий момент прохожу курс по HTML & CSS. 
+                Кроме этого поступил на курсы QA. Также имею в "багаже" несколько пройденных курсов как он-лайн, 
+                так и офф-лайн в сфере IT.</p>
+                <p>Общий стаж работы с техникой IT составляет почти 25 лет.</p>
             </div>
-            <div>
-                <label for="mail">E-mail</label>
-                <input type="email" id="mail" placeholder="Введите Ваш e-mail">
-            </div>
-            <div>
-                <label for="message">Сообщение</label>
-                <br>
-                <textarea id="message" cols="30" rows="10"></textarea>
-            </div>
-            <button type="submit">Отправить!</button>   
-        </form>
+        </div>
+        <div class="card">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tr>
+                    <td>ТК Альянс</td>
+                    <td>Руководитель отдела сервиса</td>
+                    <td>2010 - 2021</td>
+                </tr>
+                <tr>
+                    <td>Зет</td>
+                    <td>Руководитель отдела производства</td>
+                    <td >2005 - 2010</td>
+                </tr>
+                <tr>
+                    <td>СЦМ</td>
+                    <td>Директор</td>
+                    <td>2002 - 2005</td>
+                </tr>
+            </table>
+        </div>
 
+        <div class="card">
+            <h2>Основные завершённые курсы</h2>
+            <ul class="courses">
+                <li> <a title="посмотреть сертификат в новом окне" href="img/php_NGTU.JPG" target="_blank">Основы создания web-сайтов с использованием технологии PHP</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/stepik-certificate-99892-04449f2.jpg" target="_blank">Как учиться эфективно</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/Basic_coding.jpg" target="_blank">Воркшоп "основы программирования"</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/web_for_beginners.jpg" target="_blank">Веб-разработка для начинающих</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/git.jpg" target="_blank">Git. Базовый курс</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/Jira&Confluence.jpg" target="_blank">Основы Jira & Confluence</a></li>
+                <li> <a title="посмотреть сертификат в новом окне" href="img/Python_for_beginners.jpg" target="_blank">Python для начинающих</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Мои хобби:</h2>
+            <ul class="hobby_list">
+                <li>Electronics</li>
+                <li>Diving</li>
+                <li>Modelling</li>
+                <li>Coding</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Список социальных сетей</h2>
+            <p>
+                <a href="https://vk.com/a.marfin" target="_blank"> ВКонтакте </a>
+            <!-- <br> -->
+            |
+                <a href="https://www.facebook.com/alexander.marfin.5/" target="_blank"> Facebook </a></p>
+        </div>
+        
+        <div class="card">
+            
+            <form action="/" class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="email" placeholder="Введите Ваш e-mail">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить!</button>   
+            </form>
+
+        </div>
     </div>
 </body>
 </html>
